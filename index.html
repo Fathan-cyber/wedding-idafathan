@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wedding Ida & Fathan &</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Dynalight&family=Maven+Pro:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Flickity Gallery -->
+    <link rel="stylesheet" href="flickity\flickity.min.css" />
+    <!-- AoS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/png" href="img/gallery/icon.png" sizes="32x32" />
+  </head>
+
+  <body>
+    <script>
+      window.addEventListener("scroll", function () {
+        if (window.scrollX !== 0) {
+          window.scrollTo(0, window.scrollY);
+        }
+      });
+    </script>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <div>
+          <h4>The Wedding of</h4>
+        </div>
+        <div>
+          <h1>Fathan & Ida</h1>
+        </div>
+        <div>
+          <p>Akan melangsungkan pernikahan dalam:</p>
+        </div>
+        <div class="simply-countdown justify-content-center"></div>
+        <div class="mt-1">
+          <p>Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+        </div>
+        <div>
+          <a href="#home" class="btn btn-lg mt-2" onclick="enableScroll()"
+            >Lihat Undangan</a
+          >
+        </div>
+      </main>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">I&F</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">F&I</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Arrum -->
+    <section id="home" class="home">
+      <div class="container">
+        <!-- salam -->
+
+        <div class="row justify-content-center align-center">
+          <div class="col col-auto add__margin">
+            <img src="img/opening.png" alt="gambar1" opacity: 0.8;">
+          </div>
+        </div>
+        <div class="row justify-content-center text-center mt-4">
+          <div
+            data-aos="slide-up"
+            data-aos-duration="1500"
+            class="surat col col-md-6"
+          >
+            <p>
+              "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+              pasangan-pasangan untukmu dari jenismu sendiri, agar kamu
+              cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
+              antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu
+              benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang
+              berpikir." <br /><br />
+              QS Ar-Rum : 21
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Mempelai -->
+      <div class="container" style="padding-top: 20px">
+        <div class="row justify-content-center">
+          <div id="home-text" class="col-md-6 text-center">
+            <div data-aos="fade-up">
+              <h4 class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh</h4>
+            </div>
+            <div data-aos="fade-down" data-aos-delay="100">
+              <p>
+                Dengan segala hormat kami bermaksud untuk mengundang
+                <span>Bapak/Ibu/Saudara/i</span> untuk hadir pada acara
+                pernikahan kami:
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row couple"
+          style="
+            display: flex;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 15px;
+            margin: 0;
+          "
+        >
+          <div class="col-lg-6">
+            <div
+              class="row"
+              style="padding: 30px 0; display: flex; align-items: center"
+            >
+              <div class="col-8 text-center">
+                <div data-aos="fade-right">
+                  <h3><b>Ida Nurrahmah</b></h3>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100">
+                  <p style="margin: 0">
+                    Putri Ke-2 dari Bapak Rohman <br />
+                    & <br />
+                    Ibu Wati
+                  </p>
+                </div>
+              </div>
+              <div data-aos="fade-right" class="col-4">
+                <img
+                  src="img/gallery/idasolo.jpg"
+                  alt="Ida"
+                  class="img-responsive-rounded-circle"
+                  style="
+                    margin: 0;
+                    aspect-ratio: 1/1.4;
+                    object-fit: cover;
+                    object-position: center;
+                  "
+                />
+                <br />
+              </div>
+            </div>
+          </div>
+          <!-- Mempelai cowo -->
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+          <div class="col-lg-6">
+            <div
+              class="row"
+              style="display: flex; align-items: center; padding: 30px 0"
+            >
+              <div data-aos="fade-left" class="col-4">
+                <img
+                  src="img/gallery/fathansolo-1.jpg"
+                  alt="Fathan"
+                  class="img-responsive-rounded-circle-1"
+                  style="
+                    margin-top: 0;
+                    aspect-ratio: 1 / 1.4;
+                    object-position: center;
+                    object-fit: cover;
+                  "
+                />
+              </div>
+              <div class="col-8 text-center">
+                <div data-aos="fade-left">
+                  <h3><b>Fathan Mubin</b></h3>
+                </div>
+                <div data-aos="fade-left" data-aos-delay="100">
+                  <p>
+                    Putra Ke-6 dari Bapak Samsuri <br />
+                    & <br />
+                    Ibu Sari
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- lokasi wedding event-->
+    <section id="info" class="info">
+      <div class="container">
+        <!-- <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <div data-aos="fade-down">
+            <h4>Wedding Event</h4>
+          </div>  -->
+        <div data-aos="fade-right">
+          <img id="gif-bird" src="img\gif\bird-silhouette.gif" />
+        </div>
+        <div data-aos="fade-up">
+          <!--  
+            <p class="alamat">Kediaman Mempelai Wanita <br>Desa Kotakembaran - Pakembangan Kuningan</p>
+          </div> -->
+          <!-- <div data-aos="zoom-out" class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1729843321328!6m8!1m7!1sHvGx3FwqfLVnEI9g8KPhCg!2m2!1d-7.022776359129181!2d108.5298464355891!3f169.81055113005962!4f-5.2702344914401635!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <br>
+          <div data-aos="fade-left"><img id="gif-bird2" src="img\gif\bird-silhouette.gif"></div>
+          <div data-aos="fade-down">
+            <h3>Minggu</h3>
+            <h3>23 Februari 2025</h3>
+          </div>
+        </div>
+      </div> -->
+          <!-- Bagian 3 -->
+          <!-- Info akad -->
+          <div class="container">
+            <div class="row justify-content-between">
+              <!-- Tanggal dan Tempat -->
+              <div data-aos="fade-right" class="col-md-5">
+                <div class="card text-center text-bg-light mb-4">
+                  <div class="card-header">Tanggal & Tempat</div>
+                  <div class="card-body">
+                    <div class="row justify-content-center">
+                      <div data-aos="zoom-out-right" class="col-md-6 my-3">
+                        <i class="bi bi-calendar kalender-icon"></i><br />
+                        <span>Minggu, 23 Februari 2025</span><br /><br />
+
+                        <i class="bi bi-geo-alt lokasi-icon"></i><br />
+                        <span>Kediaman Mempelai Wanita</span><br /><br />
+
+                        <a
+                          href="https://maps.app.goo.gl/hHbgtHnT1oqLXmdK7"
+                          target="_blank"
+                          ><button class="btn btn-primary"
+                            style="
+                              font-size: 20px;
+                              /* background-color: #4a628a; */
+                              color: white;
+                              /* border: 3px solid #4a628a; Garis tepi biru gelap */
+                              border-radius: 5px;
+                            "
+                          >
+                            Lokasi Pernikahan
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Akad -->
+              <div data-aos="fade-right" class="col-md-5">
+                <div class="card text-center text-bg-light mb-4">
+                  <div class="card-header">Akad</div>
+                  <div class="card-body">
+                    <div class="row justify-content-center">
+                      <div data-aos="zoom-out-right" class="col-md-6 my-3">
+                        <i class="bi bi-clock d-block"></i>
+                        <span>08.00 - 10.00 WIB</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Resepsi -->
+              <div data-aos="fade-left" class="col-md-5">
+                <div class="card text-center text-bg-light mb-4">
+                  <div class="card-header">Resepsi</div>
+                  <div class="card-body">
+                    <div class="row justify-content-center">
+                      <div data-aos="zoom-out-left" class="col-md-6 my-3">
+                        <i class="bi bi-clock d-block"></i>
+                        <span>11.00 - 15.00 WIB</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Galeri -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <div data-aos="fade-up" data-aos-delay="150">
+              <span>Our Memory</span>
+            </div>
+            <div data-aos="fade-down">
+              <h2>Gallery</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-3 justify-content-center image">
+          <div class="col col-4 mt-3">
+            <a data-fslightbox href="img/gallery/p1.jpg">
+              <img
+                src="img/gallery/p1.jpg"
+                alt="potrait baris 1"
+                class="img-fluid rounded overlay"
+              />
+            </a>
+          </div>
+          <div
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+            class="col col-8 mt-3"
+          >
+            <a data-fslightbox href="img/gallery/l1.jpg">
+              <img
+                src="img/gallery/l1.jpg"
+                alt="baris 1 l"
+                class="img-fluid rounded overlay"
+                style="width: 100%; height: auto"
+              />
+            </a>
+          </div>
+          <!-- baris 2 -->
+          <div
+            data-aos="flip-up"
+            data-aos-duration="1500"
+            class="col col-8 mt-3"
+          >
+            <a data-fslightbox href="img/gallery/l2.jpg">
+              <img
+                src="img/gallery/l2.jpg"
+                alt="l2 b2"
+                class="img-fluid rounded overlay"
+              />
+            </a>
+          </div>
+          <div class="col col-4 mt-3">
+            <a data-fslightbox href="img/gallery/p2.jpg">
+              <img
+                src="img/gallery/p2.jpg"
+                alt="p2 b2"
+                class="img-fluid rounded overlay"
+              />
+            </a>
+          </div>
+          <!-- baris 3 -->
+          <div
+            data-aos="flip-up"
+            data-aos-duration="1500"
+            class="col col-4 mt-3"
+          >
+            <a data-fslightbox href="img/gallery/p3-1.jpg">
+              <img
+                src="img/gallery/p3-1.jpg"
+                alt=""
+                class="img-fluid rounded overlay new__custom-image"
+              />
+            </a>
+          </div>
+          <div
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+            class="col col-4 mt-3"
+          >
+            <a data-fslightbox href="img/gallery/p3-2.jpg">
+              <img
+                src="img/gallery/p3-2.jpg"
+                alt="Random Photo from Picsum"
+                class="img-fluid rounded overlay new__custom-image"
+              />
+            </a>
+          </div>
+          <div
+            data-aos="flip-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+            class="col col-4 mt-3"
+          >
+            <a data-fslightbox href="img/gallery/p3-3.jpg">
+              <img
+                src="img/gallery/p3-3.jpg"
+                alt="Random Photo from Picsum"
+                class="img-fluid rounded overlay new__custom-image"
+              />
+            </a>
+          </div>
+          <!-- baris 4 -->
+          <!-- <div class="col col-4 mt-3">
+            <a data-fslightbox href="img/gallery/p4.jpg">
+              <img
+                src="img/gallery/p4.jpg"
+                alt=""
+                class="img-fluid rounded overlay"
+              />
+            </a>
+          </div>
+          <div
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+            class="col col-8 mt-4"
+          >
+            <a data-fslightbox href="img/gallery/l4-new.jpg">
+              <img
+                src="img/gallery/l4-new.jpg"
+                style="width: 100%; height: auto"
+                alt=""
+                class="img-fluid rounded overlay"
+              />
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- RSVP -->
+    <!-- <section id="rsvp" class="rsvp">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="row justify-content-center text-center closing">
+          <div style="text-align: center;" class="row col justify-content-center text-center col-md-6 mt-2">
+            <p>Menjadi sebuah kebahagiaan bagi kami apabila <span>Bapak/Ibu/Saudara/i</span> berkenan hadir di hari bahagia kami. Terima
+              kasih atas segala ucapan, doa, dan perhatian yang diberikan.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-8 col-10 text-center">
+          <div data-aos="fade-down">
+            <h2 class="nama2">Ida & Fathan</h2>
+          </div>
+        </div>
+      </div>
+      <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
+        action="https://script.google.com/macros/s/AKfycbw4OpKnfn2PO90Idrx0CICnPav5-Uw4OQn1x6DoJsgpnzTNbQmqiA035xWP6ZYzJjmf/exec"
+        id="my-form">
+        <div class="col-12">
+          <div data-aos="fade-right" class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" name="nama" required>
+          </div>
+        </div>
+        <div class="form-group" style="transform: translateY(-5%);">
+          <label for="hadir" class="form-group-label" style="transform: translateY(-20%);">
+            Konfirmasi Kehadiran
+          </label>
+          <select class="form-control" id="hadir" name="hadir" required>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+          </select>
+        </div>
+        <div data-aos="fade-right" data-aos-delay="100" class="mb-3">
+          <label for="plusOne" class="form-label">Jumlah Tamu</label>
+          <input type="number" class="form-control" min="0" id="plusOne" name="plusOne" required>
+        </div>
+        <div data-aos="fade-right" data-aos-delay="200" class="col-12 button-form" style="transform: translateY(-7%);">
+          <button class="btn btn-primary">Send</button>
+        </div>
+      </form> -->
+    <!-- <div class="row row-full">
+        <div class="col text-center">
+          
+          <small class="block">Made with <i class="bi bi-heart-fill" style="color: pink;"></i>
+          </small>
+        </div>
+      </div>
+      </div>
+  </section> -->
+    <!-- Ucapan -->
+    <!-- <section id="message" class="message">
+    <div class="row justify-content-center text-center">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+          <div data-aos="fade-down" style="text-align: center;" class="mt-2">
+            <h2>Wishes and Prayer</h2>
+          </div>
+          <div data-aos="fade-up" style="text-align: center;">
+            <p>Kirimkan doa & ucapan untuk kedua mempelai</p>
+          </div>
+          <div data-aos="zoom-in" id="disqus_thread"></div>
+          <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+            var disqus_config = function () {
+              this.page.url = 'https://www.annahanifwedding.com/?a={salutation}&n={name}&thread_id=11052024';
+              this.page.identifier = getThreadIdentifier();
+              this.page.title = 'Leave us a message here!';
+            };
+            function getThreadIdentifier() {
+              var urlParams = new URLSearchParams(window.location.search);
+              var threadId = urlParams.get('thread_id');
+              return threadId || '11052024'; // default thread identifier
+            }
+            (function () { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://hana-wedding-1.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+              Disqus.</a></noscript>
+        </div>
+      </div> -->
+    <!-- <div class="row justify-content-center text-center closing">
+        <div style="text-align: center;" class="row col justify-content-center text-center col-md-6 mt-2">
+          <p>Menjadi sebuah kebahagiaan bagi kami apabila <span>Bapak/Ibu/Saudara/i</span> berkenan hadir di hari bahagia kami. Terima
+            kasih atas segala ucapan, doa, dan perhatian yang diberikan.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center closing">
+        <div data-aos-delay="100" class="ttd mt-2 justify-content-center text-center ttd mb-2">Ida & Fathan</div>
+      </div>
+    </div>
+  </section> -->
+
+     <!-- ampau -->
+  <section id="sumbangan" class="mt-3">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-lg-12 text-center">
+          <!-- <h4><i>Wedding Gift</i></h4> -->
+          <div data-aos="fade-down">
+            <h2>Wedding Gift</h2>
+          </div>
+          <p>Doa dan Restu Anda merupakan karunia bagi kami.
+            Dan jika memberi adalah ungkapan tanda kasih, dengan senang hati kami menerima kado secara cashless
+          </p>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4">
+          <div class="card rounded-3 custom-bank">
+            <img src="./img/gallery/bri-logo.png" class="card-img-top mt-3" alt="Bank BRI" />
+            <div class="card-body">
+              <h4 align="center">Bank BRI</h4>
+              <h4 align="center">a.n Ida Nurrahmah</h4>
+              <div class="d-flex flex-column gap-3">
+                <input id="bri" value="013301070469506" type="text" readonly />
+                <!-- <p id="bri">013301070469506</p> -->
+                
+                <button class="btn btn-primary rek">Salin Rekening</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <footer>
+      <div class="container footer">
+        <div class="row row-full">
+          <div class="col text-center">
+            <small
+              ><p>
+                Menjadi sebuah kebahagiaan bagi kami apabila
+                <span>Bapak/Ibu/Saudara/i</span> berkenan hadir di hari bahagia
+                kami. Terima kasih atas segala ucapan, doa, dan perhatian yang
+                diberikan.
+              </p></small
+            >
+            <h2 class="nama2">Ida & Fathan</h2>
+            <small class="block"
+              >Made with <i class="bi bi-heart-fill" style="color: pink"></i>
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/2song.mp3" type="audio/mp3" />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <!-- <i class="bi bi-play-circle-fill"></i> -->
+        <i class="bi bi-pause-circle"></i>
+      </div>
+    </div>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2025, // required
+        month: 2, // required
+        day: 23, // required
+        hours: 8, // Default is 0 [0-23] integer
+        minutes: 30, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "days" },
+          hours: { singular: "jam", plural: "hours" },
+          minutes: { singular: "menit", plural: "minutes" },
+          seconds: { singular: "detik", plural: "seconds" },
+        },
+        plural: false, //use plurals
+        refresh: 1000, //default refresh every 1s
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script src="flickity\flickity.pkgd.min.js"></script>
+    <script src="fslightbox\fslightbox.js"></script>
+
+    <script>
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+      const song = document.querySelector("#song");
+      const audioIcon = document.querySelector(".audio-icon-wrapper i");
+
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        };
+
+        rootElement.style.scrollBehavior = "auto";
+      }
+
+      function enableScroll() {
+        window.onscroll = function () {};
+        rootElement.style.scrollBehavior = "smooth";
+        playAudio();
+      }
+
+      function playAudio() {
+        song.volume = 0.3;
+        audioIconWrapper.style.display = "flex";
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function () {
+        if (isPlaying) {
+          song.pause();
+          audioIcon.classList.add("bi-play-circle");
+          audioIcon.classList.remove("bi-pause-circle");
+        } else {
+          song.play();
+          audioIcon.classList.remove("bi-play-circle");
+          audioIcon.classList.add("bi-pause-circle");
+        }
+
+        isPlaying = !isPlaying;
+      };
+      disableScroll();
+    </script>
+
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Konfirmasi kehadiran berhasil terkirim!");
+          });
+        });
+      });
+    </script>
+
+    <!-- <script>
+    var checkbox = document.getElementById("hadir");
+    var nama = document.getElementById("nama");
+    
+    nama.addEventListener('input', function() {
+      if (this.value) {
+        document.getElementById("hadir").disabled= false;
+      } else {
+        document.getElementById("hadir").checked=false;
+        document.getElementById("plusOne").checked=false;
+        document.getElementById("hadir").disabled=true;
+        document.getElementById("plusOne").disabled=true;
+      }
+    });
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    document.getElementById("plusOne").disabled= false;
+  } else {
+    document.getElementById("plusOne").checked=false;
+    document.getElementById("plusOne").disabled=true;
+  }
+});
+
+    </script> -->
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      console.log(urlParams.get("a"));
+      const anrede = urlParams.get("a") || "";
+      const guestName = urlParams.get("n") || "";
+      const nameContainer = document.querySelector(".hero p span");
+      nameContainer.innerText = `${anrede} ${guestName}`.replace(/ ,$/, ",");
+      const namaContainer = document.querySelector(".home p span");
+      namaContainer.innerText = `${anrede} ${guestName}`.replace(/ ,$/, ",");
+      const namenContainer = document.querySelector(".message p span");
+      namenContainer.innerText = `${anrede} ${guestName}`.replace(/ ,$/, ",");
+
+      // document.querySelector('#nama').value = guestName;
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+    <script>
+
+      const bri = document.querySelector('#bri');
+      const btn = document.querySelector('.rek')
+  
+      btn.addEventListener('click', () => {
+        bri.select();
+        document.execCommand('copy');
+        Swal.fire({
+          title: 'Success!',
+          text: 'Sukses disalin',
+          icon: 'success',
+          confirmButtonText: 'Selesai'
+        })
+      })
+    </script>
+    <script>
+      // Mencegah klik kanan pada halaman
+      document.addEventListener("contextmenu", function(e) {
+          e.preventDefault();
+          alert("Klik kanan dibatasi!");
+      });
+
+      // Mencegah F12 (Inspect Element) atau kombinasi Ctrl+Shift+I
+      document.addEventListener("keydown", function(e) {
+          if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && e.keyCode == 73)) {
+              e.preventDefault();
+              alert("Fitur ini dibatasi!");
+          }
+      });
+  </script>
+  </body>
+</html>
