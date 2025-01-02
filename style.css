@@ -907,9 +907,25 @@ footer .bi {
   .footer {
     font-size: 60% !important;
   }
+  .map-icon {
+    font-size: 18px; /* Example to adjust the size */
+    color: white;  /* Example to adjust the color */
+}
+
   .row-full {
     width: 115%;
     transform: translateX(-5%);
+  }
+  .home img {
+    /* margin-top: 50px; */
+    margin-top: 20%;
+    max-width: 200px;
+    border-radius: 20px;
+  }
+
+  .info-mobile {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -932,11 +948,6 @@ footer .bi {
         padding-top: 70px;
         max-width: 200px;
     } */
-  .home img {
-    margin-top: 50px;
-    max-width: 200px;
-    border-radius: 20px;
-  }
 
   .simply-countdown > .simply-section {
     padding: 60px;
